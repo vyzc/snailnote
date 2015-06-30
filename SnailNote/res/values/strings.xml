@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">蜗牛笔记</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="search_hint">搜索笔记</string>
+    
+    <string name="action_new">新建记事</string>
+    <string name="action_search">搜索记事</string>
+    
+    <string name="desc_back">再按一下返回键退出</string>
+    
+    <string name="hint_note_title">标题</string>
+    <string name="hint_note_body">您的笔记</string>
+    <string name="desc_new_note">新建笔记</string>
+    <string name="desc_modify_note">修改笔记</string>
+    <string name="no_title">无题</string>
+    
+    <string name="search_title">搜索笔记</string>
+    
+    <string name="welcome">欢迎</string>
+    <string name="welcome_msg">"欢迎使用蜗牛笔记!
+ 
+在这里，你可以: 
+\u0009* 添加笔记 
+\u0009* 修改笔记
+\u0009* 删除笔记
+\u0009* 搜索笔记
+\u0009* ……
+ 
+有问题可以回馈给我，我会努力改善的,
+发送email给我 naiyujun@gmail.com 
+
+非常感谢您使用我的应用程序."</string>
+
+</resources>

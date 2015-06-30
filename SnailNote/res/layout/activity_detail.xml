@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_bg"
+    android:padding="@dimen/common_padding" >
+    
+    <EditText
+        android:id="@+id/et_note_title_detail"
+        style="@style/editTextStyle"
+        android:fontFamily="sans-serif"
+        android:hint="@string/hint_note_title"
+        android:inputType="textCapCharacters"
+        android:singleLine="true"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textSize="@dimen/not_title_size"
+        android:gravity="center_horizontal">
+        <requestFocus />
+    </EditText>
+    
+    <EditText 
+        android:id="@+id/et_note_body_detail"
+        style="@style/editTextStyle"
+        android:layout_marginTop="@dimen/common_padding"
+        android:fontFamily="sans-serif"
+        android:hint="@string/hint_note_body"
+        android:inputType="textCapCharacters|textMultiLine"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:textColor="#5d5d5d"
+        android:textSize="@dimen/not_body_size"/>
+
+</LinearLayout>

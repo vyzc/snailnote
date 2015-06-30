@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_bg" >
+    
+    <ListView 
+        android:id="@+id/lv_notes_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:scrollbarStyle="outsideOverlay"
+        android:cacheColorHint="@color/transparent"
+        android:listSelector="@drawable/item_bg_selector"
+        android:divider="@color/light_gray"
+        android:dividerHeight="1.0px"/>
+
+</LinearLayout>

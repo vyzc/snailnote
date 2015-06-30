@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:snailnote="http://schemas.android.com/apk/res-auto" >
+    
+    <item
+        android:id="@+id/action_del_note"
+        android:orderInCategory="101"
+        snailnote:showAsAction="always"
+        android:title="@string/action_search"
+        android:icon="@drawable/ic_action_discard"/>
+
+</menu>

@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:snailnote="http://schemas.android.com/apk/res-auto" >
+
+    
+    <item
+        android:id="@+id/action_new_note"
+        android:orderInCategory="100"
+        snailnote:showAsAction="ifRoom"
+        android:title="@string/action_new"
+        android:icon="@drawable/ic_action_new"/>
+    
+</menu>

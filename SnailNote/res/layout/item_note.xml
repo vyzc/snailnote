@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_item"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tv_title_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="@dimen/list_row_padding_left_right"
+        android:paddingRight="@dimen/list_row_padding_left_right"
+        android:paddingTop="@dimen/list_row_padding_top_bottom"
+        android:textColor="@color/black"
+        android:textSize="@dimen/not_title_size" />
+
+    <TextView
+        android:id="@+id/tv_note_item"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/list_row_margin_bottom"
+        android:ellipsize="end"
+        android:fontFamily="sans-serif"
+        android:maxLines="2"
+        android:paddingBottom="@dimen/list_row_padding_top_bottom"
+        android:paddingLeft="@dimen/list_row_padding_left_right"
+        android:paddingRight="@dimen/list_row_padding_left_right"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/not_body_size" />
+
+</LinearLayout>
